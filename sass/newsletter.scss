@@ -1,0 +1,46 @@
+@use 'variables' as *;
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  font-family: $fuente-ubuntu;
+  background-color: $verde;
+  padding-left: 25%;
+  padding-right: 25%;
+
+  .invitation-text {
+    width: 50%;
+    padding: 10px;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .email-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+
+    input {
+      height: 40px;
+      font-family: $fuente-ubuntu;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    button {
+      height: 40px;
+      margin-top: 5px;
+      background-color: $fucsia;
+      font-family: $fuente-ubuntu;
+      font-size: 16px;
+      border-radius: 6px;
+      border-width: 0px;
+    }
+  }
+}

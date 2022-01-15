@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 45px;
+  background-color: $purple;
+
+  img{
+    width: auto;
+   }
+}

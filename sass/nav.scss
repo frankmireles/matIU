@@ -1,0 +1,42 @@
+@use 'variables' as *;
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: $naranja;
+  margin: 0px;
+  border: 0px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 50px;
+    }
+
+    h2 {
+      margin-left: 10px;
+      font-family: $fuente-ubuntu;
+    }
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: $naranja;
+
+    a {
+      font-family: $fuente-ubuntu;
+      font-size: 15px;
+      margin: 15px;
+      width: 140px;
+      text-align:center;
+    }
+  }
+}

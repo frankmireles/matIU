@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+/* Dispositivo movil */
+@media (max-width: 575px) {
+  .banner {
+    display: none;
+  }
+}
+
+/* Dispositivo pequeño */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+}
+
+/* Dispositivo mediano (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    display: none;
+  }
+}
